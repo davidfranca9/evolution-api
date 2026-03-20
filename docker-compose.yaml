@@ -6,7 +6,7 @@ services:
     image: 'evoapicloud/evolution-api:latest'
     restart: always
     ports:
-      - '127.0.0.1:8080:8080'
+      - '127.0.0.1:8081:8080'
     volumes:
       - 'evolution_instances:/evolution/instances'
     env_file:
